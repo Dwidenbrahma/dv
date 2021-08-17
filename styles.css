@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+.container{
+    width: fit-content;
+    display: flex;
+    transform: translate(280px, 130px);
+    /* margin-left: 20vw;
+    margin-top: 10vh; */
+}
+.card{
+    width: 280px;
+    height: 430px;
+    box-shadow: 10px 10px 1px rgb(0,0,0,0.5);
+}
+.card img{
+    width: 20%;
+    margin-top: 5vh;
+    margin-left: 3vw;
+
+}
+.card h1{
+    padding-top: 5vh;
+    padding-left: 3vw;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 95%);
+}
+.card p{
+    font-size: 15px;
+    width: 70%;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-left: 3vw;
+    margin-top: 5vh;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+.primary-card{
+    background-color: hsl(31, 77%, 52%);
+}
+.secondary-card{
+    background-color: hsl(184, 100%, 22%);
+}
+.third-card{
+    background-color: hsl(179, 100%, 13%);
+}
+button{
+    width: 130px;
+    height:40px;
+    margin-left: 3vw;
+    margin-top: 8vh;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.primary-card button{
+    color: hsl(31, 77%, 52%); 
+}
+.secondary-card button{
+    color: hsl(184, 100%, 22%);
+}
+.third-card button{
+    color:hsl(179, 100%, 13%)
+}
+.primary-card button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.secondary-card button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:  hsl(0, 0%, 95%); 
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.third-card button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.third-card{
+    border-radius: 0px 7px 7px 0px;
+}
+.primary-card{
+    border-radius: 7px 0px 0px 7px;
+}
