@@ -40,11 +40,11 @@ button{
 .third-card{
     border-radius: 0px 0px 7px 7px;
 }
-}
-@media(max-width:500px){
+}*/
+@media(max-width:768px){
     .container{
         display: block;
-        transform: translate(80px, 60px);
+
     }
     .card{
         width: 350px;
@@ -72,8 +72,8 @@ button{
     .third-card{
         border-radius: 0px 0px 7px 7px;
     }
-} */
- @media(max-width:720px){
+}
+/*  @media(max-width:768px){
     .container{
         transform: translate(100px,20px);
         display: grid;
@@ -94,3 +94,4 @@ button{
         transform: translate(70px, 50px);
     }
 } 
+ */
