@@ -47,8 +47,8 @@ button{
 
     }
     .card{
-        width: 350px;
-        height: 500px;
+        width: 320px;
+        height: 470px;
     }
     .card img{
         width: 15%;
@@ -64,7 +64,7 @@ button{
     }
     button{
         margin-left: 9vw;
-        margin-top: 17vh;
+        margin-top: 10vh;
     }
     .primary-card{
         border-radius: 7px 7px 0px 0px;
