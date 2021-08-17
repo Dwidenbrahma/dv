@@ -73,7 +73,7 @@ button{
         border-radius: 0px 0px 7px 7px;
     }
 }
-/* @media(max-width:720px){
+ @media(max-width:720px){
     .container{
         transform: translate(100px,20px);
         display: grid;
@@ -93,4 +93,4 @@ button{
     .container{
         transform: translate(70px, 50px);
     }
-} */
+} 
